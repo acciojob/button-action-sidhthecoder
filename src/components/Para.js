@@ -9,7 +9,7 @@ const Para=()=>{
 
     return (
         <div id="main">
-           {isVisible ? <p id="para" className={isVisible ? 'show' : 'hide'}>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy.</p>:null}
+           {isVisible ? <p id="para" className="show">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy.</p>:<p id="para" className="hide"></p>}
            <button id="click" onClick={handleClick}>Click Me</button>
         </div>
     )
