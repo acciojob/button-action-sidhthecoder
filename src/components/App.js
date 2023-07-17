@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import './../styles/App.css';
-
-const App = (props) => {
+import Para from "./Para";
+const App = () => {
 
   return (
-    <div className="App" id="main">
-      // Do not alter the main div
+    <div className="App">
+      <Para/>
     </div>
   );
 }
